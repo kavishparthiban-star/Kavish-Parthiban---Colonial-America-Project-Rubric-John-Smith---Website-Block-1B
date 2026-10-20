@@ -1,0 +1,130 @@
+/* Space Mono Font Styles */
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+} 
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+} 
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+} 
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Base Page Styling */
+body {
+    background-color: rgb(192, 141, 64);
+    font-family: "Space Mono", monospace;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(202, 205, 50);
+    padding: 2%;
+    margin: 0;
+    border-bottom: 3px solid black;
+} 
+
+h2 {
+    text-align: center;
+    background-color: chocolate;
+    padding: 1%;
+    margin: 0;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+/* Main Content Layout */
+.content-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Card Section Styling for Simplicity & Cleanliness */
+.card {
+    background-color: #fff8e8;
+    border: 3px solid black;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 0px black;
+}
+
+.card h3 {
+    margin-top: 0;
+    border-bottom: 2px solid chocolate;
+    padding-bottom: 8px;
+    color: #4a2e00;
+}
+
+/* Image & Gallery Styling */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img-wrapper {
+    text-align: center;
+}
+
+.img1, .img2, .img3 {
+    border: 3px solid black;
+    background-color: white;
+    padding: 3px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.8);
+}
+
+.caption {
+    font-size: 0.85rem;
+    margin-top: 8px;
+    font-style: italic;
+    color: #444;
+}
+
+/* Lists and Text */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.sources-list {
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a2e00;
+    color: white;
+    font-size: 0.9rem;
+    border-top: 3px solid black;
+    margin-top: 40px;
+}
